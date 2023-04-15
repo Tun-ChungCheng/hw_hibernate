@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context displayName="Servlet 3.0 Web Application" docBase="WebAppLab01" path="/WebAppLab01" reloadable="true">
+  <!-- MySQL -->
+  <Resource name="jdbc/CustomerDB" type="javax.sql.DataSource" 
+		username="root" password="root"
+		driverClassName="com.mysql.cj.jdbc.Driver" 
+		url="jdbc:mysql:///jspdb"
+		connectionProperties=
+		"useUnicode=yes;characterEncoding=utf8;useSSL=false;serverTimezone=Asia/Taipei;allowPublicKeyRetrieval=true"
+		maxTotal="8" 
+		maxIdle="4" 
+		maxWaitMillis="5000" 
+  />
+</Context>
